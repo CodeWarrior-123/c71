@@ -36,6 +36,7 @@ export default class TransactionScreen extends Component {
   };
 
   render() {
+    //trying to check git
     const { domState, hasCameraPermissions, scannedData, scanned } = this.state;
     if (domState === "scanner") {
       return (
